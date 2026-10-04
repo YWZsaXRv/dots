@@ -1,0 +1,3 @@
+# preview de imagem contorna a falta de sixel do alacritty
+[preview]
+image_adapter = "ueberzug"

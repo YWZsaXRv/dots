@@ -1,0 +1,61 @@
+[font]
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+size = 12.0
+
+[colors.primary]
+background = "#c0c0c0"
+foreground = "#000000"
+dim_foreground = "#808080"
+bright_foreground = "#000000"
+
+[colors.cursor]
+text = "#c0c0c0"
+cursor = "#000000"
+
+[colors.vi_mode_cursor]
+text = "#c0c0c0"
+cursor = "#000080"
+
+[colors.selection]
+text = "#ffffff"
+background = "#000080"
+
+[colors.search.matches]
+foreground = "#000000"
+background = "#ffffff"
+
+[colors.search.focused_match]
+foreground = "#ffffff"
+background = "#000080"
+
+# as 16 cores do terminal. o win95 era bem mais pobre que isso,
+# entao as que nao tem equivalente viram tons de cinza e navy
+[colors.normal]
+black = "#000000"
+red = "#ff0000"
+green = "#008000"
+yellow = "#808000"
+blue = "#000080"
+magenta = "#800080"
+cyan = "#008080"
+white = "#c0c0c0"
+
+[colors.bright]
+black = "#808080"
+red = "#ff0000"
+green = "#008000"
+yellow = "#808000"
+blue = "#0000ff"
+magenta = "#800080"
+cyan = "#008080"
+white = "#ffffff"
+
+[colors.dim]
+black = "#000000"
+red = "#808080"
+green = "#808080"
+yellow = "#808080"
+blue = "#000080"
+magenta = "#800080"
+cyan = "#808080"
+white = "#c0c0c0"

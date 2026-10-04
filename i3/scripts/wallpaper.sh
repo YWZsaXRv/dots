@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # seletor de wallpaper
 # baseado no script do Justus0405 (MIT)
-# https://github.com/Justus0405/dots
+# https://github.com/Justus0405/i3wm-dotfiles/blob/main/src/config/i3/scripts/wallpaper-picker.sh
 
 wallpaperDirectory="${HOME}/.config/wallpapers"
 

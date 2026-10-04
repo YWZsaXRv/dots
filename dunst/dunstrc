@@ -1,0 +1,61 @@
+[global]
+    script = ~/.config/dunst/notification.sh
+    monitor = 0
+    follow = mouse
+    width = 260
+    height = (0, 180)
+    origin = top-right
+    offset = (20, 90)
+    scale = 0
+
+    notification_limit = 5
+    progress_bar = true
+    indicate_hidden = yes
+    transparency = 0
+    separator_height = 2
+    gap_size = 8
+    padding = 14
+    horizontal_padding = 14
+    text_icon_padding = 10
+    frame_width = 1
+    frame_color = "#808080"
+    corner_radius = 0
+
+    font = JetBrainsMonoNerdFontPropo 12
+    line_height = 6
+    format = "<span foreground='#ffffff' background='#000080'> <b>%s</b> </span>\n%b"
+    markup = full
+
+    alignment = left
+    vertical_alignment = center
+    word_wrap = yes
+    ellipsize = middle
+
+    show_age_threshold = 60
+    stack_duplicates = true
+    hide_duplicate_count = false
+
+    icon_position = left
+    max_icon_size = 52
+    icon_theme = Papirus-Dark
+
+    mouse_left_click = close_current
+    mouse_middle_click = do_action
+    mouse_right_click = close_all
+
+[urgency_low]
+    background = "#c0c0c0"
+    foreground = "#000000"
+    timeout = 4
+
+[urgency_normal]
+    background = "#c0c0c0"
+    foreground = "#000000"
+    timeout = 6
+
+[urgency_critical]
+    background = "#c0c0c0"
+    foreground = "#000000"
+    frame_color = "#ff0000"
+    timeout = 0
+

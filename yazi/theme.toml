@@ -1,0 +1,25 @@
+[app]
+overall = { bg = "#c0c0c0" }
+
+[mode]
+normal_main   = { fg = "white", bg = "blue", bold = true }
+normal_alt    = { fg = "blue" }
+
+[which]
+cand          = { fg = "blue", bold = true }
+desc          = { fg = "blue" }
+rest          = { fg = "darkgray" }
+
+[task]
+hovered       = { fg = "blue", bold = true }
+
+[mgr]
+find_keyword  = { fg = "blue", bg = "white", bold = true }
+
+[status]
+sep_left      = { open = "", close = "" }
+sep_right     = { open = "", close = "" }
+
+[tabs]
+active        = { fg = "white", bg = "blue", bold = true }
+inactive      = { fg = "blue" }

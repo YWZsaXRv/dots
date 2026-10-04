@@ -1,0 +1,71 @@
+configuration {
+    modi: "drun,run,window,ssh";
+    terminal: "alacritty";
+
+    show-icons: true;
+    drun-display-format: "{icon} {name}";
+    display-drun: " Programs ";
+    display-run: " Run ";
+    display-window: " Windows ";
+    display-ssh: " SSH ";
+}
+
+@theme "/dev/null"
+
+* {
+    width: 600px;
+    font: "JetBrainsMono Nerd Font Propo 14";
+    base: #c0c0c0;
+    foreground: #000000;
+    titlebar: #000080;
+    white: #ffffff;
+}
+
+window, element, listview, mainbox, inputbar, entry, message, textbox, button {
+    background-color: @base;
+    text-color: @foreground;
+}
+
+element {
+    padding: 4px 8px;
+}
+
+element-icon {
+    size: 20px;
+}
+
+element selected {
+    background-color: @titlebar;
+    text-color: @white;
+}
+
+listview {
+    lines: 7;
+    columns: 1;
+    padding: 4px 0px;
+}
+
+/* o prompt imita o campo da barra de inicio */
+inputbar {
+    padding: 4px;
+    children: [prompt, entry];
+}
+
+entry {
+    padding: 4px;
+}
+
+prompt {
+    background-color: @titlebar;
+    text-color: @white;
+    padding: 4px 8px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: "";
+}
+
+message, textbox {
+    padding: 4px 8px;
+}

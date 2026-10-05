@@ -1,0 +1,46 @@
+set nocompatible
+filetype off
+
+syntax on
+colorscheme win95
+
+set number
+set relativenumber
+set cursorline
+set showcmd
+set wildmenu
+set lazyredraw
+set showmatch
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set wrap
+set linebreak
+set scrolloff=8
+set sidescrolloff=8
+set termguicolors
+set laststatus=2
+set statusline=%f%m%r%h%w\ [FMT=%{&ff}]\ [ENC=%{&fenc}]\ [TYPE=%Y]\ [POS=%l,%c][%p%%]
+set statusline+=%{GitBranch()}
+
+function! GitBranch()
+  let branch = system('git branch --show-current 2>/dev/null')
+  return v:shell_error ? '' : '  ' . trim(branch)
+endfunction
+
+augroup markdown_preview
+  autocmd!
+  autocmd FileType markdown nnoremap <buffer> <leader>p :!~/.local/bin/glow -s light %<CR>
+  autocmd FileType markdown nnoremap <buffer> <leader>P :!~/.local/bin/glow -s light -p %<CR>
+augroup END
+
+let mapleader = " "
+nnoremap <leader>nh :nohlsearch<CR>
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
+inoremap jk <Esc>

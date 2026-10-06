@@ -11,12 +11,12 @@
 
 | Função | Pacote |
 | --- | --- |
-| Barra de tarefas | <a href="https://github.com/polybar/polybar"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [polybar](https://github.com/polybar/polybar) |
-| Menu e seletor de apps | <a href="https://github.com/davatorium/rofi"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [rofi](https://github.com/davatorium/rofi) |
-| Terminal | <a href="https://github.com/alacritty/alacritty"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [alacritty](https://github.com/alacritty/alacritty) |
-| Gerenciador de arquivos | <a href="https://github.com/sxyazi/yazi"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [yazi](https://github.com/sxyazi/yazi) |
-| Preview de imagens no terminal | <a href="https://github.com/jstkdng/ueberzugpp"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [ueberzugpp](https://github.com/jstkdng/ueberzugpp) |
-| Wallpaper | <a href="https://github.com/derf/feh"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [feh](https://github.com/derf/feh) |
-| Notificações | <a href="https://github.com/dunst-project/dunst"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [dunst](https://github.com/dunst-project/dunst) |
-| Editor | <a href="https://github.com/vim/vim"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [vim](https://github.com/vim/vim) |
-| Markdown preview | <a href="https://github.com/charmbracelet/glow"><img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16"></a> [glow](https://github.com/charmbracelet/glow) |
+| Barra de tarefas | [![polybar](https://img.shields.io/badge/polybar-181717?logo=github&logoColor=white)](https://github.com/polybar/polybar) |
+| Menu e seletor de apps | [![rofi](https://img.shields.io/badge/rofi-181717?logo=github&logoColor=white)](https://github.com/davatorium/rofi) |
+| Terminal | [![alacritty](https://img.shields.io/badge/alacritty-181717?logo=github&logoColor=white)](https://github.com/alacritty/alacritty) |
+| Gerenciador de arquivos | [![yazi](https://img.shields.io/badge/yazi-181717?logo=github&logoColor=white)](https://github.com/sxyazi/yazi) |
+| Preview de imagens no terminal | [![ueberzugpp](https://img.shields.io/badge/ueberzugpp-181717?logo=github&logoColor=white)](https://github.com/jstkdng/ueberzugpp) |
+| Wallpaper | [![feh](https://img.shields.io/badge/feh-181717?logo=github&logoColor=white)](https://github.com/derf/feh) |
+| Notificações | [![dunst](https://img.shields.io/badge/dunst-181717?logo=github&logoColor=white)](https://github.com/dunst-project/dunst) |
+| Editor | [![vim](https://img.shields.io/badge/vim-181717?logo=github&logoColor=white)](https://github.com/vim/vim) |
+| Markdown preview | [![glow](https://img.shields.io/badge/glow-181717?logo=github&logoColor=white)](https://github.com/charmbracelet/glow) |
